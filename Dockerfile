@@ -9,4 +9,4 @@ RUN  cd /src; npm install
 
 CMD ["node", "/src/server.js"]
 
-EXPOSE  8080
+EXPOSE  3000
