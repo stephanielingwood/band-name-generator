@@ -1,18 +1,28 @@
 {
   "name": "band-name-generator",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Need a cheesy band name? This is the app for you.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephanielingwood/band-name-generator"
+    "url": "git+https://github.com/stephanielingwood/band-name-generator.git"
   },
-  "description": "Example Site for JavaScript F2 at Code Fellows",
-  "dependencies": {
-    "body-parser": "^1.12.4",
-    "express": "^4.12.4"
+  "author": "Stephanie Lingwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephanielingwood/band-name-generator/issues"
   },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-jscs": "^1.5.0"
-  }
+  "homepage": "https://github.com/stephanielingwood/band-name-generator#readme"
 }
